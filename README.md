@@ -5,13 +5,13 @@ Separate package for [`node-notifier`](https://github.com/mikaelbr/node-notifier
 ## Install
 
 ```
-npm i [-g] node-notifier-cli
+npm i [-g] @startvibe/node-notifier-cli
 ```
 
 or try it out with [npx](https://www.npmjs.com/package/npx)
 
 ```
-npx -p node-notifier-cli notify -t 'Hello' -m 'My message'
+npx -p @startvibe/node-notifier-cli notify -t 'Hello' -m 'My message'
 ```
 
 ## usage

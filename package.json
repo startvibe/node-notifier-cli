@@ -1,6 +1,6 @@
 {
-  "name": "node-notifier-cli",
-  "version": "2.0.0",
+  "name": "@startvibe/node-notifier-cli",
+  "version": "2.0.1",
   "description": "CLI API for node-notifier",
   "main": "bin.js",
   "bin": {
@@ -24,7 +24,7 @@
   "author": "Mikael Brevik",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^9.39.1",
     "eslint-config-semistandard": "^15.0.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.20.2",
@@ -33,16 +33,16 @@
     "eslint-plugin-standard": "^4.0.1"
   },
   "dependencies": {
-    "cli-usage": "^0.1.10",
+    "@startvibe/cli-usage": "^0.1.11",
     "minimist": "^1.2.5",
-    "node-notifier": "^8.0.2"
+    "node-notifier": "^10.0.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikaelbr/node-notifier-cli.git"
+    "url": "git+https://github.com/startvibe/node-notifier-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/mikaelbr/node-notifier-cli/issues"
+    "url": "https://github.com/startvibe/node-notifier-cli/issues"
   },
-  "homepage": "https://github.com/mikaelbr/node-notifier-cli#readme"
+  "homepage": "https://github.com/startvibe/node-notifier-cli#readme"
 }

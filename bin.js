@@ -2,7 +2,7 @@
 
 var Notification = require('node-notifier').Notification;
 var minimist = require('minimist');
-var usage = require('cli-usage');
+var usage = require('@startvibe/cli-usage');
 
 var aliases = {
   help: 'h',
