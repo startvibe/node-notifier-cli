@@ -1,6 +1,6 @@
 {
   "name": "@startvibe/node-notifier-cli",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "CLI API for node-notifier",
   "main": "bin.js",
   "bin": {
