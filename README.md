@@ -1,6 +1,6 @@
 # `node-notifier` CLI
 
-Separate package for [`node-notifier`](https://github.com/mikaelbr/node-notifier) CLI.
+Separate package for [`node-notifier`](https://github.com/startvibe/node-notifier) CLI.
 
 ## Install
 
@@ -39,7 +39,7 @@ notify -h
 ## Example
 
    $ notify -t "Hello" -m "My Message" -s --open http://github.com
-   $ notify -t "Agent Coulson" --icon https://raw.githubusercontent.com/mikaelbr/node-notifier/master/example/coulson.jpg
+   $ notify -t "Agent Coulson" --icon https://raw.githubusercontent.com/startvibe/node-notifier/master/example/coulson.jpg
    $ notify -m "My Message" -s Glass
    $ echo "My Message" | notify -t "Hello"
 ```

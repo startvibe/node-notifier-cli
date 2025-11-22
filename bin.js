@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var Notification = require('node-notifier').Notification;
+var Notification = require('@startvibe/node-notifier').Notification;
 var minimist = require('minimist');
 var usage = require('@startvibe/cli-usage');
 
@@ -113,7 +113,7 @@ function readme(input, extra) {
   str += '## Example\n```shell\n';
   str += '$ notify -t "Hello" -m "My Message" -s --open http://github.com\n';
   str +=
-    '$ notify -t "Agent Coulson" --icon https://raw.githubusercontent.com/mikaelbr/node-notifier/master/example/coulson.jpg \n';
+    '$ notify -t "Agent Coulson" --icon https://raw.githubusercontent.com/startvibe/node-notifier/master/example/coulson.jpg \n';
   str += '$ notify -m "My Message" -s Glass\n';
   str += '$ echo "My Message" | notify -t "Hello"```\n\n';
   usage(str);
